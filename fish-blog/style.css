@@ -1,0 +1,62 @@
+<head>
+  <meta charset="UTF-8">
+  <title>The Fish Tank 🐠</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background: linear-gradient(to bottom, #d0f0f8, #ffffff);
+      color: #033649;
+      margin: 0;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      background-color: #a8e6cf;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 3em;
+      margin: 0;
+      color: #05668d;
+    }
+
+    p {
+      max-width: 700px;
+      margin: 0 auto;
+    }
+
+    article {
+      background-color: #e0f7fa;
+      border: 2px dashed #56cfe1;
+      border-radius: 12px;
+      padding: 15px 20px;
+      margin: 30px auto;
+      max-width: 700px;
+    }
+
+    article h2 {
+      color: #028090;
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      color: #4f6367;
+    }
+
+    hr {
+      border: none;
+      height: 1px;
+      background-color: #b2dfdb;
+      margin: 30px auto;
+      width: 80%;
+    }
+  </style>
+</head>
+
