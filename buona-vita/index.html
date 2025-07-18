@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Buona Vita – A Life Seasoned Well</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cardo&family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Cardo', serif;
+      background: #f6f1e7;
+      color: #40382c;
+    }
+
+    header {
+      background: url('https://i.imgur.com/kpZYxxt.jpg') no-repeat center/cover;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 4rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.5rem;
+    }
+
+    nav {
+      background-color: #e57a44;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    nav a {
+      color: #fffde9;
+      text-decoration: none;
+      transition: 0.2s ease;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      padding: 4rem 10%;
+      border-bottom: 1px dashed #cebca5;
+    }
+
+    .section h2 {
+      font-family: 'Pacifico', cursive;
+      color: #a24936;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .tile {
+      background-color: #fff;
+      border: 2px solid #d0c4b0;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .tile img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+    }
+
+    .tile h3 {
+      margin: 0.5rem 0 0.25rem;
+      color: #5b4636;
+    }
+
+    footer {
+      background-color: #f1eadc;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    .stamp {
+      font-size: 1.25rem;
+      font-family: 'Pacifico', cursive;
+      color: #8c5e2f;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Buona Vita</h1>
+    <p>A Life Seasoned Well</p>
+  </header>
+  
+  <nav>
+    <a href="#recipes">Recipes</a>
+    <a href="#stories">Stories</a>
+    <a href="#wellness">Wellness</a>
+    <a href="#about">About</a>
+  </nav>
+
+  <section id="recipes" class="section">
+    <h2>Tinned & True</h2>
+    <div class="tiles">
+      <div class="tile">
+        <img src="https://i.imgur.com/LRZJLoP.jpg" alt="Sardine toast">
+        <h3>Sardine & Tomato Toast</h3>
+        <p>Simple, salty, satisfying—my favorite midday meal.</p>
+      </div>
+      <div class="tile">
+        <img src="https://i.imgur.com/H0RwL94.jpg" alt="Zucchini salad">
+        <h3>Lemon Zucchini Salad</h3>
+        <p>Fresh herbs, shaved veg, and golden olive oil—easy and elegant.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="stories" class="section">
+    <h2>Seasoned Stories</h2>
+    <p>A space for personal reflections, health journeys, and the magic of slow living.</p>
+    <div class="tiles">
+      <div class="tile">
+        <h3>On Eating Like My Nonna</h3>
+        <p>What I’ve learned from my grandmother’s kitchen and why it still matters today.</p>
+      </div>
+      <div class="tile">
+        <h3>The Art of a Good Grocery List</h3>
+        <p>How handwritten lists, preserved fish, and dried herbs taught me balance.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="wellness" class="section">
+    <h2>Digestivo</h2>
+    <p>Gentle tips, routines, and rituals that support a healthy mind and body—from the inside out.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About</h2>
+    <p>Buona Vita is a personal wellness blog celebrating the Mediterranean way of living. Here you'll find recipes, reflections, and illustrations inspired by vintage Italian food, culture, and care. A life seasoned well isn’t perfect—it’s full of flavor, softness, and sunshine.</p>
+    <div class="stamp">With love from the Italian coast 🍋</div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Buona Vita Blog | A Life Seasoned Well</p>
+  </footer>
+</body>
+</html>
