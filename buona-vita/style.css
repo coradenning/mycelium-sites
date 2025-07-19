@@ -1,0 +1,98 @@
+    body {
+      margin: 0;
+      font-family: 'Cardo', serif;
+      background: #f6f1e7;
+      color: #40382c;
+    }
+
+    header {
+      background: url('https://i.imgur.com/kpZYxxt.jpg') no-repeat center/cover;
+      height: 60vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.4);
+    }
+
+    header h1 {
+      font-family: 'Pacifico', cursive;
+      font-size: 4rem;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1.5rem;
+    }
+
+    nav {
+      background-color: #e57a44;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+
+    nav a {
+      color: #fffde9;
+      text-decoration: none;
+      transition: 0.2s ease;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .section {
+      padding: 4rem 10%;
+      border-bottom: 1px dashed #cebca5;
+    }
+
+    .section h2 {
+      font-family: 'Pacifico', cursive;
+      color: #a24936;
+      font-size: 2.5rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .tiles {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .tile {
+      background-color: #fff;
+      border: 2px solid #d0c4b0;
+      border-radius: 12px;
+      padding: 1rem;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .tile img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 0.5rem;
+    }
+
+    .tile h3 {
+      margin: 0.5rem 0 0.25rem;
+      color: #5b4636;
+    }
+
+    footer {
+      background-color: #f1eadc;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    .stamp {
+      font-size: 1.25rem;
+      font-family: 'Pacifico', cursive;
+      color: #8c5e2f;
+      margin-top: 2rem;
+    }
