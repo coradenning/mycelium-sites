@@ -1,3 +1,9 @@
+.beth-ellen-regular {
+  font-family: "Beth Ellen", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   font-family: 'Cardo', serif;
@@ -24,7 +30,7 @@ header.page-header {
 }
 
 header h1 {
-  font-family: 'Pacifico', cursive;
+  font-family: "Beth Ellen", cursive;
   font-size: 4rem;
   margin: 0;
 }
